@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- MENU START  -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- NAV CONTAINER START -->
+        <div class="container-fluid">
+          <a href="" class="brand"><img src="img/Logotipo_Home1.png" alt=""></a>
+
+          <!-- NAV BUTTON  -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#menuLateral"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- OFFCANVAS MAIN CONTAINER START -->
+          <section
+            class="offcanvas offcanvas-start"
+            id="menuLateral"
+            tabindex="-1"
+          >
+            <div class="offcanvas-header" data-bs-theme="dark">
+              <a href="" class="brand center"><img src="img/Logotipo_Home1.png" alt=""></a>
+              <button
+                class="btn-close"
+                type="button"
+                aria-label="Close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <!-- OFF CANVAS MENU LINKS  START-->
+            <div
+              class="offcanvas-body d-flex flex-column justify-content-between px-0"
+            >
+              <ul class="navbar-nav fs-5 justify-content-evenly">
+                <li class="nav-item p-3 py-md-1">
+                  <a href="" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="#servicios" class="nav-link">SERVICIOS</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="" class="nav-link">RESERVACIONES</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="#seccion-contacto" class="nav-link">CONTACTO</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+  <br>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./img/img2.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/img5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/img6.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!--========================================================== -->
+    <!-- TIPOS DE SERVICIOS 1-->
+    <!--========================================================== -->
+    <div class="title-cards">
+      <h2 id="servicios">Servicios que Ofrecemos</h2>
+    </div>
+    <div class="container-card">
+
+      <div class="card">
+        <figure>
+          <img src="./img/ser3.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Granjero en Portozuelo</h3>
+          <p>Granjeros por un día 🤠🍃
+            Una experiencia pensada para los peques, con actividades interactivas, rodeados
+            de naturaleza, conociendo a la vez que aprendiendo como es la vida en el campo 👨🏽‍🌾🥬🐰</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img src="./img/ser2.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Ceremonía Mística</h3>
+          <p>Vive esta experiencia única a través de
+            #portozuelomístico 🙌🏼 en donde por medio de medicinas sagradas 🍄 🌱, buscamos armonizar nuestro
+            cuerpo, alma y mente</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img src="./img/ser1.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Camping Under The Moon</h3>
+          <p>Disfruta de acampar bajo la luna llena con nosotros, en un ambiente de
+            tranquilidad y en medio de la naturaleza 🌑🌳</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="title-cards">
+    </div>
+    <div class="container-card">
+      <div class="card">
+        <figure>
+          <img src="./img/ser3.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Granjero en Portozuelo</h3>
+          <p>Granjeros por un día 🤠🍃
+            Una experiencia pensada para los peques, con actividades interactivas, rodeados
+            de naturaleza, conociendo a la vez que aprendiendo como es la vida en el campo 👨🏽‍🌾🥬🐰</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img src="./img/ser2.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Ceremonía Mística</h3>
+          <p>Vive esta experiencia única a través de
+            #portozuelomístico 🙌🏼 en donde por medio de medicinas sagradas 🍄 🌱, buscamos armonizar nuestro
+            cuerpo, alma y mente</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img src="./img/ser4.jpg" alt="">
+        </figure>
+        <div class="contenido-card">
+          <h3>Camping Under The Moon</h3>
+          <p>Disfruta de acampar bajo la luna llena con nosotros, en un ambiente de
+            tranquilidad y en medio de la naturaleza 🌑🌳</p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+    </div>
+
+    <!--========================================================== -->
+    <!-- GALERÍA-->
+    <!--========================================================== -->
+
+    <div class="title-cards">
+      <h2>GALERÍA</h2>
+    </div>
+
+    <div class="container-img">
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="img/img1.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="img/img2.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="img/img3.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="img/img4.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="#">
+          <figure>
+            <img src="img/img5.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="img6.jpg">
+          <figure>
+            <img src="img/img6.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+      <div class="box-img">
+        <a href="img/img5.jpg">
+          <figure>
+            <img src="img/img5.jpg" alt="img-galeria">
+          </figure>
+        </a>
+      </div>
+    </div>
+
+
+    <!--========================================================== -->
+    <!-- SECCION UBICACION-->
+    <!--========================================================== -->
+
+    <div class="title-cards">
+      <h2>Ubicación</h2>
+    </div>
+      <div id="local" class="border-top border-2">
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6834.137185913115!2d-96.79424228729278!3d16.91435901474243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c717161cec1e27%3A0xc871164b88e4bf47!2sPortozuelo!5e0!3m2!1ses!2smx!4v1695273035486!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+          <div class="wrapper-local">
+            <h2>Ubicado en la Raya, Zimatlan</h2>
+            <h2 class="text-primary mb-4" id="typewriter"></h2>
+            <p class="fs-5 text-body">Restaurante campestre basado en la tradicional cocina de leña, con platillos típicos de la región. Con huerto, granja y espacios al aire libre
+              Un desayuno muy Oaxaqueño. Disfruta de la tranquilidad del campo, deliciosas bebidas, guisos y sabores</p>
+            <section class="d-flex justify-content-start" id="numeros-local">
+              <div>
+                <p class="text-primary fs-5">200</p>
+                <p>Dias de Sol</p>
+              </div>
+              <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Aprobado</p>
+              </div>
+              <div>
+                <p class="text-primary fs-5">24 °C</p>
+                <p>Temperatura</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+
+    <!--========================================================== -->
+    <!-- SECCION CONTACTOS-->
+    <!--========================================================== -->
+
+
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+      <div id="bg-contactos">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+      </div>
+
+      <!--========================================================== -->
+      <!-- CONTENEDOR DEL FORMULARIO -->
+      <!--========================================================== -->
+
+      <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+        <div class="text-center mb-4" id="titulo-formulario">
+          <!--<div><img src="./img/Logotipo_Home1.png" alt="" class="img-fluid ps-5"></div> -->
+          <h2>Contactanos</h2>
+          <p class="fs-5"></p>
+        </div>
+
+        <form   method="POST" data-netlify="true" action="#">
+          <div class= "mb-3">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Correo">
+          </div>
+          <div class="mb-3">
+            <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+
+    <!--========================================================== -->
+    <!--FOOTER-->
+    <!--========================================================== -->
+
+
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3  pt-3">Portozuelo. &copy; Todos Los Derechos Reservados 2023</p>
+      <div id="iconos" >
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- script para galeria de fotos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+      ></script>
+ </body>
+</html>
